@@ -14,7 +14,7 @@ setup(
     description="A dynamic FastAPI router that automatically creates CRUD routes for your models",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    install_requires=["fastapi"],
+    install_requires=["fastapi", "pydantic"],
     python_requires=">=3.6",
     keywords=["fastapi", "crud", "restful", "routing", "generator", "crudrouter"],
     classifiers=[
